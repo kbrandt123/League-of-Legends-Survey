@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+        <img src="/League.jpg" alt="League picture">
+    
+<div class="header">
+<h1><strong>Leauge of Legends Survey</strong></h1>
+        
+    </div>
+
+
+    <section class="survey-info"> 
+
+        <div class="name">
+        <label for="name"></label>
+        <form id="survey-form" action="#">
+        <p>Name</p>
+        </div>
+    <input type="text" required placeholder="Enter Name">
+    
+
+<div class="email">
+<p>Email</p>
+<input type="text" required placeholder="Enter Email">
+</div>
+
+<div class="age">
+<p>Age (optional)</p>
+<input type="text" placeholder="Age">
+</div>
+
+<div class="how-long">
+<p>How long have you been playing League of Legends?</p>
+<input type="text" requried placeholder="Time Played">
+</div>
+
+
+  
+    <p>Would you recommend League of Legends to a friend?</p>
+    <div class = "input-radio">
+    <label for="Definitely"> 
+<input id="Definitely"  type= "radio" value="Definitely" name="recommendations">Definitely
+</label><br>
+
+
+<label for="Maybe"> 
+    <input id="Maybe"  type= "radio" value="Maybe" name="recommendations">Maybe
+    </label><br>
+
+    <label for="Never"> 
+        <input id="Never"   type= "radio" value="Never" name="recommendations">Never
+        </label>
+    </div>
+       
+    <!-- Need to program a list selector of top,mid, jg,bot,supp-->
+        <div class = 'dropdown'>
+        <label for="lane">What lane do you main?</label>
+        <select style="width: 100%;"name="lane" id="lane">
+            <option disabled selected value>Select your main role</option>
+        <option value="Top">Top</option>
+        <option value="Jungle">Jungle</option>
+        <option value="Mid">Mid</option>
+        <option value="Bottom">Bottom</option>
+        <option value="Support">Support</option>
+    </select>
+</div>
+
+<div class="checkboxes">
+        <p>How can League of Legends Improve? (check all that apply)</p>
+        <label for="fix client"> 
+            <input id="fix client" type= "checkbox" value="fix client" name="improvements" >Fix Client
+            </label><br>
+
+            <label for="nerf zed"> 
+                <input id="nerf zed" type= "checkbox" value="nerf zed" name="improvements" >Nerf Zed
+                </label><br>
+
+                <label for="remove toxic players"> 
+                    <input id="remove toxic players" type= "checkbox" value="remove toxic players" name="improvements" >Remove Toxic Players
+                    </label><br>
+
+
+                    <label for="add more yordle champions"> 
+                        <input id="Add more yordle champions" type= "checkbox" value="Add more yordle champions" name="improvements" >Add More Yordle Champions
+                        </label><br>
+
+
+
+                        <label for="listen to the community"> 
+                            <input id="Listen to the community" type= "checkbox" value="Listen to the community" name="improvements" >Listen to the community
+                            </label><br>
+
+
+                            <label for="delete teemo"> 
+                                <input id="delete teemo" type= "checkbox" value="delete teemo" name="improvements" >Delete Teemo
+                                </label>
+                            </div>
+                
+                            <div class="form-group">
+                                <p>Any comments or suggestions?</p>
+                                <textarea
+                                  id="comments"
+                                  class="input-textarea"
+                                  name="comment"
+                                  placeholder="Enter your comment here..."
+                                ></textarea>
+                              </div>
+                
+
+
+                <input class = 'button' type = "submit">
+            
+        
+</form>
+    </section>
+
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,154 @@
+/*body{
+
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;  
+} 
+    */
+img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url("../League.jpg");
+  width: 100%;
+  height: 150%;
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+}
+
+.title {
+  font-size: 200%;
+}
+
+.header h1 {
+  position: relative;
+  text-align: center;
+  bottom: 20px;
+  color: white;
+  font-size: 60px;
+  text-shadow: 0.03em 0 black, 0 0.03em black, -0.03em 0 black, 0 -0.03em black, -0.03em -0.03em black, -0.03em 0.03em black, 0.03em -0.03em black, 0.03em 0.03em black;
+}
+
+.header p {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 200%;
+  bottom: 40px;
+  text-shadow: 0.03em 0 black, 0 0.03em black, -0.03em 0 black, 0 -0.03em black, -0.03em -0.03em black, -0.03em 0.03em black, 0.03em -0.03em black, 0.03em 0.03em black;
+}
+
+.survey-info {
+  text-align: left;
+  position: relative;
+  color: white;
+  margin: auto;
+  width: 40%;
+  padding: 80px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: larger;
+}
+
+.name p {
+  text-align: left;
+}
+
+.email p {
+  text-align: left;
+}
+
+.age p {
+  text-align: left;
+}
+
+.how-long p {
+  text-align: left;
+}
+
+input[type="text"] {
+  width: 100%;
+  min-height: 30px;
+}
+
+.comment input[type="text"] {
+  min-height: 70px;
+  width: 100%;
+  padding-left: 5px;
+}
+
+.comment input[type="text"]::-webkit-input-placeholder {
+  min-height: 70px;
+  width: 100%;
+  vertical-align: text-top;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+}
+
+.comment input[type="text"]:-ms-input-placeholder {
+  min-height: 70px;
+  width: 100%;
+  vertical-align: text-top;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+}
+
+.comment input[type="text"]::-ms-input-placeholder {
+  min-height: 70px;
+  width: 100%;
+  vertical-align: text-top;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+}
+
+.comment input[type="text"]::placeholder {
+  min-height: 70px;
+  width: 100%;
+  vertical-align: text-top;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+}
+
+.input-radio {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  vertical-align: middle;
+  text-align: left;
+}
+
+input[type="select"] {
+  width: 100%;
+  min-height: 30px;
+}
+
+.button {
+  height: 37px;
+  width: 102%;
+  margin-left: 5px;
+  background-color: #37af65;
+  margin-top: 20px;
+  padding: 0px;
+}
+
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+}
+/*# sourceMappingURL=main.css.map */
